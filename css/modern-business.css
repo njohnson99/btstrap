@@ -23,15 +23,23 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'charter';
+    src: url('charter.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 body {
-  font-family: freight-sans-light;
+  font-family: charter;
   padding-top: 54px;
 }
 
 @media (min-width: 992px) {
   body {
     padding-top: 56px;
+    padding-right: 56px;
   }
 }
 
