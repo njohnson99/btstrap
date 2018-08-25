@@ -4,7 +4,28 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
  */
 
+ /*  Use our custom font.
+ */
+
+@font-face {
+    font-family: 'freight-sans-bold';
+    src: url('freight-sans-bold.woff2') format('woff2'),
+         url('freight-sans-bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'freight-sans-light';
+    src: url('freight-sans-light.woff2') format('woff2'),
+         url('freight-sans-light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 body {
+  font-family: freight-sans-light;
   padding-top: 54px;
 }
 
